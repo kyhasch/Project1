@@ -1,0 +1,12 @@
+In this program we import 4 different modules the os which makes for easy
+operating system uses. requests for sending http requestss BeautifulSoup for Html passing
+urlparse which is used for parsing urls. in this function we have two functions the dowload_article
+and the save save_article. the dowload_article is given a url where it trys and opens the url if not an error is given
+ then using functions from soup it trys to find and return the main content of the article. secondly is the save_article
+ this function takes content and puts it in a text doc call article{index}.txt finally there is the main
+ in the main there is a request for the text document containing the urls. This when given the correct info
+ will read the lines of the file the urls. it will then proceed to process the urls using the download_article function to
+ make article_content and if it successfully does that save it to its unique doc
+
+ to use it must have the proper requirements installed and run it 
+ using the python3 command and giving the location of the users url text file
